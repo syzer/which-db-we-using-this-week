@@ -18,5 +18,5 @@ console.log(`This week we use ${thisWeekDb.name}, \
 because having a ${noReason} is crucial to our business.`);
 
 const img2ascii = require('img2ascii')({
-    img: './assets/snafu.gif', cols: 90
+    img: `${__dirname}/assets/snafu.gif`, cols: 90
 }).pipe(process.stdout);
