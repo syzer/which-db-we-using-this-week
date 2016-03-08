@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const _ = require('lodash');
 const dbs = [
     {name: 'RethinkDb', hipsterFeatures: ['Streams']},
@@ -11,5 +13,10 @@ const dbs = [
     {name: 'ElasticSearch', hipsterFeatures: ['Data lake']}
 ];
 const thisWeekDb = _.sample(dbs);
-const because = _.sample(thisWeekDb.hipsterFeatures).toLowerCase();
-console.log(`This week we use ${thisWeekDb.name}, because having a ${thisWeekDb.hipsterFeatures} is crucial to our business.`);
+const noReason = _.flow(_.sample, _.toLower)(thisWeekDb.hipsterFeatures);
+console.log(`This week we use ${thisWeekDb.name}, \
+because having a ${noReason} is crucial to our business.`);
+
+const img2ascii = require('img2ascii')({
+    img: './assets/snafu.gif', cols: 90
+}).pipe(process.stdout);
