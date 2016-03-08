@@ -6,7 +6,7 @@ const dbs = [
     {name: 'CouchDb', hipsterFeatures: ['Distributed db']},
     {name: 'Couchbase', hipsterFeatures: ['Faster couch']},
     {name: 'Aerospike', hipsterFeatures: ['SSD optimized']},
-    {name: 'Postgres', hipsterFeatures: ['DevOps approved']},
+    {name: 'Postgres', hipsterFeatures: ['DevOps approved db']},
     {name: 'MongoDb', hipsterFeatures: ['Such speed']},
     {name: 'Postgres', hipsterFeatures: ['DevOps approved']},
     {name: 'Redis', hipsterFeatures: ['Fast cache']},
