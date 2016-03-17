@@ -10,7 +10,8 @@ const dbs = [
     {name: 'MongoDb', hipsterFeatures: ['Such speed']},
     {name: 'Postgres', hipsterFeatures: ['DevOps approved']},
     {name: 'Redis', hipsterFeatures: ['Fast cache']},
-    {name: 'ElasticSearch', hipsterFeatures: ['Data lake']}
+    {name: 'ElasticSearch', hipsterFeatures: ['Data lake']},
+    {name: 'Cayley', hipsterFeatures: ['Google approved graph db']}
 ];
 const thisWeekDb = _.sample(dbs);
 const noReason = _.flow(_.sample, _.toLower)(thisWeekDb.hipsterFeatures);
