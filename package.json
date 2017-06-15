@@ -30,6 +30,6 @@
     "lodash": "^4.6.1"
   },
   "devDependencies": {
-    "tap": "^5.7.0"
+    "tap": "^10.3.3"
   }
 }
