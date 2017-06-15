@@ -1,5 +1,7 @@
 # WAT
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/syzer/which-db-we-using-this-week.svg)](https://greenkeeper.io/)
+
 Short Game about being a developer in a startup.
 ![NPM Version](https://badge.fury.io/js/img2ascii.svg)](https://badge.fury.io/js/img2ascii)
 [![Dependency Status](https://david-dm.org/syzer/which-db-we-using-this-week.svg)](https://david-dm.org/syzer/which-db-we-using-this-week)
